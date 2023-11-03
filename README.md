@@ -1,2 +1,2 @@
-# SurMIM
-Brain Cortical Surface Anomaly Detection using Surface Masked Image Modeling.
+# CAM
+Learning Cortical Anomaly through Masked Encoding for Unsupervised Heterogeneity Mapping.

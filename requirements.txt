@@ -1,0 +1,10 @@
+# --------- pytorch --------- #
+torch
+
+# --------- data science --------- #
+matplotlib
+
+# --------- utils --------- #
+tqdm
+ipykernel
+ipywidgets

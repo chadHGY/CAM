@@ -17,9 +17,7 @@ Official PyTorch Implementation for the [Learning Cortical Anomaly through Maske
 # CAM
 A new **Self-Supervised** framework designed for **Unsupervised Anomaly Detection** of brain disorders using **3D cortical surface features**.
 
-# Getting Started
-
-## Setup
+## Getting Started
 1. Clone the repo:
 ```bash
 git clone git@github.com:chadHGY/CAM.git
@@ -33,11 +31,11 @@ conda activate cam
 pip install -r requirements.txt
 ```
 
-# Data
+## Data
 To easily demonstrate the usage of CAM, we provide a toy dataset in the `data` directory. The toy dataset contains 10 subjects from [IXI dataset](https://brain-development.org/ixi-dataset/). For each subject we will extract 4 cortical surface features using FreeSurfer (Curvature, Sulci, Thickness, Volume).
 
 1. Data Preprocessing:
-Please make sure you have gone through [FreeSurfer's](https://surfer.nmr.mgh.harvard.edu/fswiki/recon-all) `recon-all pipeline` to extract the cortical surface features. The surface features should be found under each subject's `surf` directory. You can find the already processed data in the `data/freesurfer` directory.
+Please make sure you have gone through [FreeSurfer's](https://surfer.nmr.mgh.harvard.edu/fswiki/recon-all) `recon-all pipeline` to extract the cortical surface features. The surface features should be found under each subject's `surf` directory. You can find the already processed toy data in the `data/freesurfer` directory.
 
 2. Data Postprocessing:
 Here we provide a simple script to convert the surface features to a numpy array. 
@@ -53,12 +51,12 @@ python src/data_postprocessing.py --freesurfer_dir data/freesurfer/ --subject_li
 ```
 
 
-# Training
+## Training
 ```bash
 python src/train.py --data_dir /path/to/your/postprocessed/data --output_dir /path/to/your/output
 ```
 
-# Inference
+## Inference
 ```bash
 python src/inference.py --data_dir /path/to/your/postprocessed/data --output_dir /path/to/your/output
 ```

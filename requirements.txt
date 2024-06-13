@@ -2,9 +2,13 @@
 torch
 
 # --------- data science --------- #
+pandas
+scipy
 matplotlib
 
 # --------- utils --------- #
 tqdm
 ipykernel
 ipywidgets
+pyrootutils
+joblib

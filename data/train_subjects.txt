@@ -1,0 +1,6 @@
+data/freesurfer/sub-IXI031
+data/freesurfer/sub-IXI094
+data/freesurfer/sub-IXI137
+data/freesurfer/sub-IXI218
+data/freesurfer/sub-IXI230
+data/freesurfer/sub-IXI377
